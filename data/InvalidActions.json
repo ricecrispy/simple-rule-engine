@@ -1,0 +1,6 @@
+[
+  {
+    "Criteria": [{ "Key": "a", "Operator": "=", "Value": "Hello there" }],
+    "Actions": [{ "Ping": "Pong" }]
+  }
+]

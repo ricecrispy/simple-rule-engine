@@ -1,0 +1,32 @@
+[
+  {
+    "Criteria": [{ "Key": "get-ready", "Operator": "=", "Value": "true" }],
+    "Actions": [{ "Key": "work", "Value": "true" }]
+  },
+  {
+    "Criteria": [{ "Key": "asleep", "Operator": "!=", "Value": "true" }],
+    "Actions": [{ "Key": "check-phone", "Value": "true" }]
+  },
+  {
+    "Criteria": [{ "Key": "asleep", "Operator": "=", "Value": "true" }],
+    "Actions": [
+      { "Key": "asleep", "Value": "false" },
+      { "Key": "get-ready", "Value": "false" }
+    ]
+  },
+  {
+    "Criteria": [
+      { "Key": "eat-breakfast", "Operator": "=", "Value": "true" },
+      { "Key": "check-phone", "Operator": "=", "Value": "true" }
+    ],
+    "Actions": [{ "Key": "get-ready", "Value": "true" }]
+  },
+  {
+    "Criteria": [{ "Key": "stretch", "Operator": "=", "Value": "true" }],
+    "Actions": [{ "Key": "eat-breakfast", "Value": "true" }]
+  },
+  {
+    "Criteria": [{ "Key": "check-phone", "Operator": "=", "Value": "true" }],
+    "Actions": [{ "Key": "stretch", "Value": "true" }]
+  }
+]
